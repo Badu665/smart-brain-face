@@ -5,6 +5,7 @@
   "type": "module",
   "homepage": "https://badu665.github.io/smartbrain.github.io/",
   "scripts": {
+    "start": "serve -s build",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
