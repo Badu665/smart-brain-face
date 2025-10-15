@@ -1,0 +1,18 @@
+.error-message {
+  color: red;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+/* Blinking animation */
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.blinking-text {
+  animation: blinker 1s linear infinite;
+}
+/* Some Comments */
